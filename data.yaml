@@ -1,0 +1,6 @@
+train: dataset/css-data/train/images
+val: dataset/css-data/val/images
+test: dataset/css-data/test/images  # Optional
+
+nc: 10
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
